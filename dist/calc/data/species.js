@@ -470,7 +470,7 @@ var RBY = {
         weightkg: 28,
         nfe: true
     },
-    Marowak: { types: ['Ground'], bs: { hp: 60, at: 80, df: 110, sp: 45, sl: 50 }, weightkg: 45 },
+    Marowak: { types: ['Ground'], bs: { hp: 60, at: 130, df: 80, sp: 45, sl: 80 }, weightkg: 45 },
     Meowth: {
         types: ['Normal'],
         bs: { hp: 40, at: 45, df: 35, sp: 90, sl: 40 },
