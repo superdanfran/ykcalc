@@ -552,7 +552,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Pikachu: {
     types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 30, sp: 90, sl: 50},
+    bs: {hp: 60, at: 55, df: 50, sp: 90, sl: 50},
     weightkg: 6,
     nfe: true,
   },
