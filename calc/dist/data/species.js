@@ -91,7 +91,7 @@ var RBY = {
     },
     Articuno: {
         types: ['Ice', 'Flying'],
-        bs: { hp: 105, at: 85, df: 100, sp: 85, sl: 125 },
+        bs: { hp: 90, at: 85, df: 100, sp: 85, sl: 125 },
         weightkg: 55.4
     },
     Beedrill: {
@@ -129,7 +129,7 @@ var RBY = {
     },
     Chansey: {
         types: ['Normal'],
-        bs: { hp: 255, at: 5, df: 45, sp: 50, sl: 105 },
+        bs: { hp: 250, at: 5, df: 5, sp: 50, sl: 105 },
         weightkg: 34.6
     },
     Charizard: {
@@ -178,7 +178,7 @@ var RBY = {
         weightkg: 0.8,
         nfe: true
     },
-    Ditto: { types: ['Normal'], bs: { hp: 100, at: 100, df: 100, sp: 100, sl: 100 }, weightkg: 4 },
+    Ditto: { types: ['Normal'], bs: { hp: 48, at: 48, df: 48, sp: 48, sl: 48 }, weightkg: 4 },
     Dodrio: {
         types: ['Normal', 'Flying'],
         bs: { hp: 60, at: 110, df: 70, sp: 100, sl: 60 },
@@ -232,7 +232,7 @@ var RBY = {
     },
     Electabuzz: {
         types: ['Electric'],
-        bs: { hp: 65, at: 95, df: 60, sp: 110, sl: 100 },
+        bs: { hp: 65, at: 83, df: 57, sp: 105, sl: 85 },
         weightkg: 30
     },
     Electrode: {
@@ -242,7 +242,7 @@ var RBY = {
     },
     Exeggcute: {
         types: ['Grass', 'Psychic'],
-        bs: { hp: 80, at: 65, df: 80, sp: 40, sl: 80 },
+        bs: { hp: 60, at: 40, df: 80, sp: 40, sl: 60 },
         weightkg: 2.5,
         nfe: true
     },
@@ -371,7 +371,7 @@ var RBY = {
     },
     Jynx: {
         types: ['Ice', 'Psychic'],
-        bs: { hp: 65, at: 50, df: 60, sp: 100, sl: 115 },
+        bs: { hp: 65, at: 50, df: 35, sp: 95, sl: 95 },
         weightkg: 40.6
     },
     Kabuto: {
@@ -399,7 +399,7 @@ var RBY = {
     },
     Kangaskhan: {
         types: ['Normal'],
-        bs: { hp: 105, at: 95, df: 80, sp: 90, sl: 75 },
+        bs: { hp: 105, at: 95, df: 80, sp: 90, sl: 40 },
         weightkg: 80
     },
     Kingler: { types: ['Water'], bs: { hp: 55, at: 130, df: 115, sp: 75, sl: 50 }, weightkg: 60 },
@@ -427,7 +427,7 @@ var RBY = {
     },
     Machamp: {
         types: ['Fighting'],
-        bs: { hp: 90, at: 130, df: 80, sp: 55, sl: 85 },
+        bs: { hp: 90, at: 130, df: 80, sp: 55, sl: 65 },
         weightkg: 130
     },
     Machoke: {
@@ -450,7 +450,7 @@ var RBY = {
     },
     Magmar: {
         types: ['Fire'],
-        bs: { hp: 65, at: 100, df: 60, sp: 105, sl: 125 },
+        bs: { hp: 65, at: 95, df: 57, sp: 93, sl: 85 },
         weightkg: 44.5
     },
     Magnemite: {
@@ -490,7 +490,7 @@ var RBY = {
     },
     Mewtwo: {
         types: ['Psychic'],
-        bs: { hp: 106, at: 110, df: 90, sp: 140, sl: 154 },
+        bs: { hp: 106, at: 110, df: 90, sp: 130, sl: 154 },
         weightkg: 122
     },
     Moltres: {
@@ -645,7 +645,7 @@ var RBY = {
         bs: { hp: 60, at: 90, df: 55, sp: 100, sl: 90 },
         weightkg: 30
     },
-    Rapidash: { types: ['Fire'], bs: { hp: 65, at: 100, df: 70, sp: 110, sl: 80 }, weightkg: 95 },
+    Rapidash: { types: ['Fire'], bs: { hp: 65, at: 100, df: 70, sp: 105, sl: 80 }, weightkg: 95 },
     Raticate: {
         types: ['Normal'],
         bs: { hp: 55, at: 81, df: 60, sp: 97, sl: 50 },
@@ -744,7 +744,7 @@ var RBY = {
     },
     Tauros: {
         types: ['Normal'],
-        bs: { hp: 75, at: 105, df: 95, sp: 115, sl: 70 },
+        bs: { hp: 75, at: 100, df: 95, sp: 110, sl: 70 },
         weightkg: 88.4
     },
     Tentacool: {
@@ -786,7 +786,7 @@ var RBY = {
     },
     Vileplume: {
         types: ['Grass', 'Poison'],
-        bs: { hp: 95, at: 80, df: 85, sp: 50, sl: 110 },
+        bs: { hp: 75, at: 80, df: 85, sp: 50, sl: 100 },
         weightkg: 18.6
     },
     Voltorb: {

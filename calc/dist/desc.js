@@ -700,19 +700,7 @@ function buildDescription(description, attacker, defender) {
     output += description.attackerName + ' ';
     if (description.isHelpingHand) {
         output += 'Helping Hand ';
-		}
-		if (description.isBadgeAtk) {
-			output += 'Badge Boosted Attack ';
-		}
-		if (description.isBadgeDef) {
-			output += 'Badge Boosted Defense ';
-		}
-		if (description.isBadgeSpeed) {
-			output += 'Badge Boosted Speed ';
-		}
-		if (description.isBadgeSpec) {
-			output += 'Badge Boosted Special ';
-		}
+    }
     if (description.isFlowerGiftAttacker) {
         output += ' with an ally\'s Flower Gift ';
     }
