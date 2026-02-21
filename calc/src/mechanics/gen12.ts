@@ -1,11 +1,11 @@
-import {Generation} from '../data/interface';
-import {getItemBoostType} from '../items';
-import {RawDesc} from '../desc';
-import {Field} from '../field';
-import {Move} from '../move';
-import {Pokemon} from '../pokemon';
-import {Result} from '../result';
-import {computeFinalStats, getMoveEffectiveness, handleFixedDamageMoves} from './util';
+import { Generation } from '../data/interface';
+import { getItemBoostType } from '../items';
+import { RawDesc } from '../desc';
+import { Field } from '../field';
+import { Move } from '../move';
+import { Pokemon } from '../pokemon';
+import { Result } from '../result';
+import { computeFinalStats, getMoveEffectiveness, handleFixedDamageMoves } from './util';
 
 export function calculateRBYGSC(
   gen: Generation,
@@ -91,7 +91,7 @@ export function calculateRBYGSC(
   // by gen - in gen 2 we also need to check that the attacker does not have stat stage advantage
   const ignoreMods = move.isCrit &&
     (gen.num === 1 ||
-    (gen.num === 2 && attacker.boosts[attackStat]! <= defender.boosts[defenseStat]!));
+      (gen.num === 2 && attacker.boosts[attackStat]! <= defender.boosts[defenseStat]!));
 
   let lv = attacker.level;
   if (ignoreMods) {
@@ -125,7 +125,7 @@ export function calculateRBYGSC(
   }
 
   if ((attacker.named('Pikachu') && attacker.hasItem('Light Ball') && !isPhysical) ||
-      (attacker.named('Cubone', 'Marowak') && attacker.hasItem('Thick Club') && isPhysical)) {
+    (attacker.named('Cubone', 'Marowak') && attacker.hasItem('Thick Club') && isPhysical)) {
     at *= 2;
     desc.attackerItem = attacker.item;
   }
@@ -138,7 +138,7 @@ export function calculateRBYGSC(
   // Gen 2 Present has a glitched damage calculation using the secondary types of the Pokemon
   // for the Attacker's Level and Defender's Defense.
   if (move.named('Present')) {
-    const lookup: {[id: string]: number} = {
+    const lookup: { [id: string]: number } = {
       Normal: 0, Fighting: 1, Flying: 2, Poison: 3, Ground: 4, Rock: 5, Bug: 7,
       Ghost: 8, Steel: 9, '???': 19, Fire: 20, Water: 21, Grass: 22, Electric: 23,
       Psychic: 24, Ice: 25, Dragon: 26, Dark: 27,
@@ -183,7 +183,7 @@ export function calculateRBYGSC(
   baseDamage = Math.min(997, baseDamage) + 2;
 
   if ((field.hasWeather('Sun') && move.hasType('Fire')) ||
-      (field.hasWeather('Rain') && move.hasType('Water'))) {
+    (field.hasWeather('Rain') && move.hasType('Water'))) {
     baseDamage = Math.floor(baseDamage * 1.5);
     desc.weather = field.weather;
   } else if (
